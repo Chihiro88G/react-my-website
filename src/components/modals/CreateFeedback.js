@@ -41,11 +41,12 @@ function CreateFeedback({ setOpenModal }) {
                 </div>
                 <form onSubmit={submitFeedback}>
                     <div className='body'>
-                        <div>
+                        <div className='name_section'>
                             <input type='text' id='name'
-                                onChange={(e) => setName(e.target.value)} />
+                                onChange={(e) => setName(e.target.value)}
+                                placeholder='Your Name' />
                         </div>
-                        <div>
+                        <div className='message_section'>
                             <textarea placeholder='Enter feedback here'
                                 style={{ width: '390px', height: '230px' }}
                                 onChange={(e) => setNewFb(e.target.value)}></textarea>

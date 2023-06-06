@@ -28,7 +28,7 @@ export default function Feedback({ feedbackData }) {
                     <div>
                         <div className="create_fb_container">
                             <button className="create_fb_btn"
-                                onClick={() => { setOpenModal(true); }}>Create Feedback</button>
+                                onClick={() => { setOpenModal(true); }}>CREATE FEEDBACK</button>
                             {/* {openModal && <CreateFeedback setOpenModal={setOpenModal} />} */}
                         </div>
                         <div className="fb_container">
@@ -38,7 +38,7 @@ export default function Feedback({ feedbackData }) {
                                         <>
                                             <div className="fb_items">
                                                 <div className="fb_item">
-                                                    <p className="fb_name">{i.username}</p>
+                                                    <p className="fb_name">From: {i.username}</p>
                                                     <p className="fb_message">{i.message}</p>
                                                 </div>
                                             </div>

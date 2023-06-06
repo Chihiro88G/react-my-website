@@ -29,7 +29,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar_container'>
                     <Link to="/" className="navbar_logo" onClick={closeMobileMenu}>
-                        TRAVEL
+                        VISIT JAPAN
                         <i className='fab fa-typo3'></i>
                     </Link>
                     <div className='menu_icon' onClick={handleClick}>

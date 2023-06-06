@@ -43,7 +43,7 @@
 
 .modal_container .body {
     flex: 50%;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     font-size: 1.7rem;
@@ -71,4 +71,19 @@
 
 #cancel_btn {
     background-color: crimson;
+}
+
+#name {
+    width: 390px;
+    font-size: large;
+    padding-left: 5px;
+}
+
+.name_section {
+    margin-bottom: 12px;
+}
+
+.message_section textarea {
+    font-size: large;
+    padding-left: 5px;
 }
